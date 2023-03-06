@@ -7,6 +7,7 @@ fetch('https://apis.scrimba.com/jsonplaceholder/posts')
             html += `
             <h1> ${post.title} </h1>
             <p> ${post.body} <p>
+            <div class="bar"></div>
             `
         }
         document.querySelector('#content').innerHTML = html
